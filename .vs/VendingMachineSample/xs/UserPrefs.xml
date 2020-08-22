@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{BB4D2531-76D2-437E-8DF4-43D1D9789E60}|Default">
+  <MonoDevelop.Ide.ItemProperties.VendingMachineSample PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="VendingMachineSample/Domain/Model/商品Model.cs">
+    <Files>
+      <File FileName="VendingMachineSample/Domain/Model/商品Model.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VendingMachineSample" expanded="True">
+            <Node name="VendingMachineSample" expanded="True">
+              <Node name="Domain" expanded="True">
+                <Node name="Model" expanded="True">
+                  <Node name="商品Model.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
