@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
 
-namespace VendingMachineSample.Domain.Model {
+namespace VendingMachineSample.Core.Domain.Models {
     public class 通貨 : IEquatable<通貨>, IComparable<通貨> {
         public readonly int Value;
 

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using VendingMachineSample.Domain.Model;
-using VendingMachineSample.Domain.Repository;
+using VendingMachineSample.Core.Domain.Models;
+using VendingMachineSample.Core.Domain.Repositories;
 
 
-namespace VendingMachineSample.Infrastructure.Repository {
+namespace VendingMachineSample.Infra.Repositories {
     public class Memory商品在庫Repository : I商品在庫Repository {
         private Dictionary<販売コード, 販売商品在庫> 販売商品 = new Dictionary<販売コード, 販売商品在庫>();
 

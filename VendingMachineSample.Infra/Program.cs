@@ -1,14 +1,14 @@
 ﻿using System;
 using Microsoft.Extensions.DependencyInjection;
-using VendingMachineSample.Application.UseCase;
-using VendingMachineSample.Domain.Model;
-using VendingMachineSample.Domain.Repository;
-using VendingMachineSample.Infrastructure.Repository;
-using VendingMachineSample.Presentation.Controller;
-using VendingMachineSample.Presentation.View;
+using VendingMachineSample.Core.Application.UseCases;
+using VendingMachineSample.Core.Domain.Models;
+using VendingMachineSample.Core.Domain.Repositories;
+using VendingMachineSample.Core.Presentation.Controller;
+using VendingMachineSample.Core.Presentation.View;
+using VendingMachineSample.Infra.Repositories;
 
 
-namespace VendingMachineSample {
+namespace VendingMachineSample.Core {
     class Program {
         static void Main(string[] args) {
             var serviceCollection = new ServiceCollection();

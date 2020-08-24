@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using VendingMachineSample.Domain.Model;
+using VendingMachineSample.Core.Domain.Models;
 
 
-namespace VendingMachineSample.Domain.Repository {
+namespace VendingMachineSample.Core.Domain.Repositories {
     public interface I商品在庫Repository {
         public IEnumerable<販売コード> 販売コード一覧();
         public 販売商品在庫 Find商品(販売コード 販売コード);

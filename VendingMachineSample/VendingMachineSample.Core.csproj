@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\" />
+    <Folder Include="Domain\Models\" />
+    <Folder Include="Application\" />
+    <Folder Include="Application\UseCases\" />
+    <Folder Include="Domain\Repositories\" />
+    <Folder Include="Application\Command\" />
+  </ItemGroup>
+</Project>

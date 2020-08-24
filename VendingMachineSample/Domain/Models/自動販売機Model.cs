@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using VendingMachineSample.Domain.Repository;
+using VendingMachineSample.Core.Domain.Repositories;
 
 
-namespace VendingMachineSample.Domain.Model {
+namespace VendingMachineSample.Core.Domain.Models {
     public class 自動販売機該当商品なしException : Exception {
 
     }

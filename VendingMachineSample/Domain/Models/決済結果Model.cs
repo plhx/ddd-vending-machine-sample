@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-namespace VendingMachineSample.Domain.Model {
+namespace VendingMachineSample.Core.Domain.Models {
     public class 決済結果 {
         public readonly 商品 商品;
         public readonly IEnumerable<貨幣> 釣銭;

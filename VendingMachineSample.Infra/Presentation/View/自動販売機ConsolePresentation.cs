@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
-using VendingMachineSample.Presentation.Command;
+using VendingMachineSample.Core.Application.Command;
 
 
-namespace VendingMachineSample.Presentation.View {
+namespace VendingMachineSample.Core.Presentation.View {
     public interface I自動販売機Presentation {
         public void Print(I自動販売機CommandResult commandResult);
     }

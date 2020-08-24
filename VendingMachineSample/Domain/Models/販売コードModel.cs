@@ -2,7 +2,7 @@
 using System.Diagnostics.CodeAnalysis;
 
 
-namespace VendingMachineSample.Domain.Model {
+namespace VendingMachineSample.Core.Domain.Models {
     public class 販売コード : IEquatable<販売コード> {
         public readonly string Value;
 

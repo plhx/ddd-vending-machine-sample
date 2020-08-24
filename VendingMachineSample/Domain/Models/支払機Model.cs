@@ -3,7 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 
 
-namespace VendingMachineSample.Domain.Model {
+namespace VendingMachineSample.Core.Domain.Models {
     public interface I支払機<T> where T : 貨幣 {
         public 通貨 投入金額合計();
         public void Insert貨幣(T 投入貨幣);

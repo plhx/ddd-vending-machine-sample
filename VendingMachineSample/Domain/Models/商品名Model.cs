@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace VendingMachineSample.Domain.Model {
+namespace VendingMachineSample.Core.Domain.Models {
     public class 商品名 {
         public readonly string Value;
 

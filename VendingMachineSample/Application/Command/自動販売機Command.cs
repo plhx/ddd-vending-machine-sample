@@ -1,8 +1,8 @@
 ﻿using System;
-using VendingMachineSample.Domain.Model;
+using VendingMachineSample.Core.Domain.Models;
 
 
-namespace VendingMachineSample.Presentation.Command {
+namespace VendingMachineSample.Core.Application.Command {
     public interface I自動販売機Command {
 
     }
