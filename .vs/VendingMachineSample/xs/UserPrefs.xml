@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{FC2A346F-0C14-4C4B-8EB3-22619C66C804}|Default">
   <MonoDevelop.Ide.ItemProperties.VendingMachineSample.Console PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="VendingMachineSample.Console/Presentation/View/自動販売機ConsolePresentation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="VendingMachineSample.Console/Program.cs">
     <Files>
-      <File FileName="VendingMachineSample.Console/Presentation/Controller/自動販売機Controller.cs" Line="23" Column="32" />
-      <File FileName="VendingMachineSample.Console/Presentation/View/自動販売機ConsolePresentation.cs" Line="31" Column="24" />
+      <File FileName="VendingMachineSample.Console/Presentation/Controller/自動販売機Controller.cs" Line="16" Column="1" />
+      <File FileName="VendingMachineSample.Console/Presentation/View/自動販売機ConsolePresentation.cs" Line="7" Column="42" />
+      <File FileName="VendingMachineSample.Console/Program.cs" Line="4" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,10 +14,9 @@
               <Node name="Dependencies" expanded="True" />
               <Node name="Presentation" expanded="True">
                 <Node name="Controller" expanded="True" />
-                <Node name="View" expanded="True">
-                  <Node name="自動販売機ConsolePresentation.cs" selected="True" />
-                </Node>
+                <Node name="View" expanded="True" />
               </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
             <Node name="VendingMachineSample.Core" expanded="True" />
             <Node name="VendingMachineSample.Infra" expanded="True">

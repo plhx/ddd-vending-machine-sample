@@ -4,7 +4,7 @@ using VendingMachineSample.Core.Application.UseCases;
 using VendingMachineSample.Core.Domain.Models;
 
 
-namespace VendingMachineSample.Console.Presentation.Controller {
+namespace VendingMachineSample.UserInterface.CLI.Presentation.Controller {
     public interface I自動販売機Controller {
         public string Input();
         public I自動販売機CommandResult Execute(I自動販売機Command command);
