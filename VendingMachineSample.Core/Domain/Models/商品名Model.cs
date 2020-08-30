@@ -2,7 +2,7 @@
 
 
 namespace VendingMachineSample.Core.Domain.Models {
-    public class 商品名 {
+    public class 商品名 : IEquatable<商品名> {
         public readonly string Value;
 
         public 商品名(string value) {
@@ -22,19 +22,19 @@ namespace VendingMachineSample.Core.Domain.Models {
                 return true;
             if(obj.GetType() != this.GetType())
                 return false;
-            return this == (商品名)obj;
+            return this.Equals(obj as 商品名);
+        }
+
+        public bool Equals(商品名 other) {
+            if(Object.ReferenceEquals(other, null))
+                return false;
+            if(Object.ReferenceEquals(other, this))
+                return true;
+            return this.Value == other.Value;
         }
 
         public override int GetHashCode() {
             return this.Value.GetHashCode();
-        }
-
-        public static bool operator==(商品名 lhs, 商品名 rhs) {
-            return lhs.Value == rhs.Value;
-        }
-
-        public static bool operator!=(商品名 lhs, 商品名 rhs) {
-            return !(lhs == rhs);
         }
     }
 }

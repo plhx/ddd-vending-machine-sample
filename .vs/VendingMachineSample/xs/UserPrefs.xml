@@ -1,27 +1,34 @@
-﻿<Properties StartupConfiguration="{FC2A346F-0C14-4C4B-8EB3-22619C66C804}|Default">
+﻿<Properties StartupConfiguration="{9D53FDD0-5B0C-4D62-9A85-0B97DE4EFFDF}|Default">
   <MonoDevelop.Ide.ItemProperties.VendingMachineSample.Console PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="VendingMachineSample.Console/Program.cs">
-    <Files>
-      <File FileName="VendingMachineSample.Console/Presentation/Controller/自動販売機Controller.cs" Line="16" Column="1" />
-      <File FileName="VendingMachineSample.Console/Presentation/View/自動販売機ConsolePresentation.cs" Line="7" Column="42" />
-      <File FileName="VendingMachineSample.Console/Program.cs" Line="4" Column="42" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="VendingMachineSample" expanded="True">
-            <Node name="VendingMachineSample.Console" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Presentation" expanded="True">
-                <Node name="Controller" expanded="True" />
-                <Node name="View" expanded="True" />
+            <Node name="VendingMachineSample.Console" expanded="True" />
+            <Node name="VendingMachineSample.Core" expanded="True">
+              <Node name="Application" expanded="True">
+                <Node name="Command" expanded="True" />
+                <Node name="UseCases" expanded="True" />
               </Node>
-              <Node name="Program.cs" selected="True" />
+              <Node name="Domain" expanded="True">
+                <Node name="Models" expanded="True" />
+                <Node name="Repositories" expanded="True">
+                  <Node name="商品在庫Repository.cs" selected="True" />
+                </Node>
+              </Node>
             </Node>
-            <Node name="VendingMachineSample.Core" expanded="True" />
             <Node name="VendingMachineSample.Infra" expanded="True">
-              <Node name="Dependencies" expanded="True" />
               <Node name="Repositories" expanded="True" />
+            </Node>
+            <Node name="VendingMachineSample.Test" expanded="True">
+              <Node name="Application" expanded="True">
+                <Node name="Command" expanded="True" />
+                <Node name="UseCase" expanded="True" />
+              </Node>
+              <Node name="Domain" expanded="True">
+                <Node name="Model" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -30,9 +37,13 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders>
+    <String>/Users/ph/Projects/ddd-vending-machine-sample/VendingMachineSample.Core</String>
+  </Debugger.DebugSourceFolders>
   <MonoDevelop.Ide.ItemProperties.VendingMachineSample.Infra PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.VendingMachineSample.Test PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

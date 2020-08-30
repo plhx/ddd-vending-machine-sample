@@ -17,7 +17,7 @@ namespace VendingMachineSample.Core.Application.UseCases {
         private readonly I自動販売機<硬貨> 自動販売機;
 
         public 硬貨自動販売機ユーザUseCase(I自動販売機<硬貨> 自動販売機) {
-            this.自動販売機 = 自動販売機;
+            this.自動販売機 = 自動販売機 ?? throw new ArgumentNullException(nameof(自動販売機) + " cannot be null");
         }
 
         public I自動販売機CommandResult 商品一覧(自動販売機商品一覧Command command) {

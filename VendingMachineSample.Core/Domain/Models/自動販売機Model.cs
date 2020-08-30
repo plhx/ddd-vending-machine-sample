@@ -62,8 +62,8 @@ namespace VendingMachineSample.Core.Domain.Models {
             return this.支払機.投入金額合計();
         }
 
-        public 決済結果 決済(販売コード 商品コード) {
-            var item = this.Find商品(商品コード) ?? throw new 自動販売機該当商品なしException();
+        public 決済結果 決済(販売コード 販売コード) {
+            var item = this.Find商品(販売コード) ?? throw new 自動販売機該当商品なしException();
             if(item.数量 <= 0)
                 throw new 自動販売機在庫切れException();
             if(this.支払機.投入金額合計() < item.価格)

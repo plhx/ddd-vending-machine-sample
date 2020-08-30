@@ -23,7 +23,7 @@ namespace VendingMachineSample.Core.Domain.Models {
         }
 
         public IEnumerable<硬貨> Refund貨幣() {
-            var result = this.投入硬貨.ToArray();
+            var result = this.投入硬貨.ToList();
             this.投入硬貨.Clear();
             return result;
         }

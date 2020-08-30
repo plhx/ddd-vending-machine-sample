@@ -45,7 +45,7 @@ namespace VendingMachineSample.UserInterface.CLI.Presentation.View {
             else if(commandResult is 自動販売機決済SuccessCommandResult) {
                 var result = commandResult as 自動販売機決済SuccessCommandResult;
                 Console.WriteLine($"{result.決済結果.商品.商品名}を購入しました");
-                Console.WriteLine($"お釣りは {String.Join(", ", result.決済結果.釣銭.Select(x => x.ToString() + "円"))} です");
+                Console.WriteLine($"お釣りは {String.Join(", ", result.決済結果.釣銭.Select(x => x + "円"))} です");
                 return;
             }
             else if(commandResult is 自動販売機決済FailureCommandResult) {
