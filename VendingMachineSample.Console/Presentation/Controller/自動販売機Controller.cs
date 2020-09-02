@@ -6,9 +6,7 @@ using VendingMachineSample.Core.Domain.Models;
 
 namespace VendingMachineSample.UserInterface.CLI.Presentation.Controller {
     public interface I自動販売機Controller {
-        public string Input();
         public I自動販売機CommandResult Execute(I自動販売機Command command);
-        public I自動販売機Command Parse(string input);
     }
 
     public class 自動販売機ConsoleController : I自動販売機Controller {
@@ -19,8 +17,8 @@ namespace VendingMachineSample.UserInterface.CLI.Presentation.Controller {
         }
 
         public string Input() {
-            System.Console.Write(">> ");
-            return System.Console.ReadLine();
+            Console.Write(">> ");
+            return Console.ReadLine();
         }
 
         public I自動販売機CommandResult Execute(I自動販売機Command command) {

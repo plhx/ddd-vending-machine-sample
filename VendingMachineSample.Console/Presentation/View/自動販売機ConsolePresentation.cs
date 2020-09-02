@@ -5,7 +5,7 @@ using VendingMachineSample.Core.Application.Command;
 
 namespace VendingMachineSample.UserInterface.CLI.Presentation.View {
     public interface I自動販売機Presentation {
-        public void Print(I自動販売機CommandResult commandResult);
+
     }
 
     public class 自動販売機ConsolePresentation : I自動販売機Presentation {

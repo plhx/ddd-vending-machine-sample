@@ -1,11 +1,25 @@
 ﻿<Properties StartupConfiguration="{9D53FDD0-5B0C-4D62-9A85-0B97DE4EFFDF}|Default">
   <MonoDevelop.Ide.ItemProperties.VendingMachineSample.Console PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="VendingMachineSample.Console/Presentation/Controller/自動販売機Controller.cs">
+    <Files>
+      <File FileName="VendingMachineSample.Core/Domain/Repositories/商品在庫Repository.cs" Line="1" Column="1" />
+      <File FileName="VendingMachineSample.Core/Domain/Models/支払機Model.cs" />
+      <File FileName="VendingMachineSample.Core/Domain/Models/決済結果Model.cs" />
+      <File FileName="VendingMachineSample.Console/Presentation/View/自動販売機ConsolePresentation.cs" Line="8" Column="1" />
+      <File FileName="VendingMachineSample.Console/Presentation/Controller/自動販売機Controller.cs" Line="10" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="VendingMachineSample" expanded="True">
-            <Node name="VendingMachineSample.Console" expanded="True" />
+            <Node name="VendingMachineSample.Console" expanded="True">
+              <Node name="Presentation" expanded="True">
+                <Node name="Controller" expanded="True">
+                  <Node name="自動販売機Controller.cs" selected="True" />
+                </Node>
+                <Node name="View" expanded="True" />
+              </Node>
+            </Node>
             <Node name="VendingMachineSample.Core" expanded="True">
               <Node name="Application" expanded="True">
                 <Node name="Command" expanded="True" />
@@ -13,9 +27,7 @@
               </Node>
               <Node name="Domain" expanded="True">
                 <Node name="Models" expanded="True" />
-                <Node name="Repositories" expanded="True">
-                  <Node name="商品在庫Repository.cs" selected="True" />
-                </Node>
+                <Node name="Repositories" expanded="True" />
               </Node>
             </Node>
             <Node name="VendingMachineSample.Infra" expanded="True">
