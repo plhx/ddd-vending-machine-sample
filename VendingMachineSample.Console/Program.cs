@@ -30,11 +30,13 @@ namespace VendingMachineSample.UserInterface.CLI {
             foreach(var code in stockRepository.販売コード一覧())
                 stockRepository.Add数量(code, 5);
 
+            var consoleController = controller as 自動販売機ConsoleController;
+            var consolePresentation = presentation as 自動販売機ConsolePresentation;
             while(true) {
-                var input = controller.Input();
-                var command = controller.Parse(input);
-                var result = controller.Execute(command);
-                presentation.Print(result);
+                var input = consoleController.Input();
+                var command = consoleController.Parse(input);
+                var result = consoleController.Execute(command);
+                consolePresentation.Print(result);
             }
         }
     }

@@ -1,12 +1,13 @@
-﻿<Properties StartupConfiguration="{9D53FDD0-5B0C-4D62-9A85-0B97DE4EFFDF}|Default">
+﻿<Properties StartupConfiguration="{FC2A346F-0C14-4C4B-8EB3-22619C66C804}|Default">
   <MonoDevelop.Ide.ItemProperties.VendingMachineSample.Console PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="VendingMachineSample.Console/Presentation/Controller/自動販売機Controller.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="VendingMachineSample.Console/Program.cs">
     <Files>
       <File FileName="VendingMachineSample.Core/Domain/Repositories/商品在庫Repository.cs" Line="1" Column="1" />
       <File FileName="VendingMachineSample.Core/Domain/Models/支払機Model.cs" />
       <File FileName="VendingMachineSample.Core/Domain/Models/決済結果Model.cs" />
-      <File FileName="VendingMachineSample.Console/Presentation/View/自動販売機ConsolePresentation.cs" Line="8" Column="1" />
-      <File FileName="VendingMachineSample.Console/Presentation/Controller/自動販売機Controller.cs" Line="10" Column="1" />
+      <File FileName="VendingMachineSample.Console/Presentation/View/自動販売機ConsolePresentation.cs" />
+      <File FileName="VendingMachineSample.Console/Presentation/Controller/自動販売機Controller.cs" Line="29" Column="15" />
+      <File FileName="VendingMachineSample.Console/Program.cs" Line="34" Column="48" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,11 +15,10 @@
           <Node name="VendingMachineSample" expanded="True">
             <Node name="VendingMachineSample.Console" expanded="True">
               <Node name="Presentation" expanded="True">
-                <Node name="Controller" expanded="True">
-                  <Node name="自動販売機Controller.cs" selected="True" />
-                </Node>
+                <Node name="Controller" expanded="True" />
                 <Node name="View" expanded="True" />
               </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
             <Node name="VendingMachineSample.Core" expanded="True">
               <Node name="Application" expanded="True">
